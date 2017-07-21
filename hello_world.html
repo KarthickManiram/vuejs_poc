@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+	<head>
+	<link rel="stylesheet" type="text/css" href="../assets/css/bootstrap.min.css">
+	<script type="text/javascript" src="../assets/js/jquery.min.js"></script>
+	<script type="text/javascript"  src="../assets/js/bootstrap.min.js"></script>
+	</head>
+	<body>
+		<div class=" container">
+			<div class="row">
+				<div id="hello-world">
+					<h5>{{ title}}</h5>
+				</div>
+			</div>
+		</div>
+	</body>
+	<script src="../assets/js/vue_2.4.2.js"></script>
+	<script>
+		// $(document).ready(function(){
+				var app = new Vue({
+					el: '#hello-world',
+					data: {
+					  title: 'Hello Vue!'
+					}
+				})
+		// });
+	</script>
+</html>
